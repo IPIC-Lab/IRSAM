@@ -21,7 +21,7 @@ train
 According to the given train/test.txt, place the training/testing images/labels into four separate folders.
 
 ## 1. Training
-To train IRSAM on various dataset, modify the dataset path in the train-IRSAM.py file
+To train IRSAM on various dataset, modify the dataset path in the train_IRSAM.py file
 
 ### Example 
 ```
