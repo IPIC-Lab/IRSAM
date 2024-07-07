@@ -73,6 +73,7 @@ def main(train_datasets, valid_datasets, args):
         train_im_gt_list = get_im_gt_name_dict(train_datasets, flag="train")
         train_dataloaders, train_datasets= create_dataloaders(train_im_gt_list,
                                                                my_transforms=[
+                                                                   Resize(args.dataloader_size),
                                                                    RandomHFlip(),
                                                                    LargeScaleJitter()
                                                                ],
