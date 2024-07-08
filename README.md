@@ -5,7 +5,7 @@ We organize the training folder as follows.
 train
 |____datasets
 |____segment_anything_training
-|____train_IRSAM.py
+|____demo.py
 |____utils
 | |____dataloader.py
 | |____log.py
