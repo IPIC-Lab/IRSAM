@@ -1,4 +1,4 @@
-# Training instruction for HQ-SAM
+# Training instruction for IRSAM
 
 We organize the training folder as follows.
 ```
