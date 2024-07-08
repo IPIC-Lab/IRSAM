@@ -19,6 +19,7 @@ train
 ```
 
 According to the given train/test.txt, place the training/testing images/labels into four separate folders.
+
 The current IRSAM_encoder provided is the baseline of Mobile-SAM, and our designed IRSAM_encoder with WPMD will be released soon.
 
 ## 1. Training
