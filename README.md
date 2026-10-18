@@ -20,7 +20,13 @@ train
 
 According to the given train/test.txt, place the training/testing images/labels into four separate folders.
 
-The current IRSAM_encoder provided is the baseline of Mobile-SAM, and our designed IRSAM_encoder with WPMD will be released soon.
+## Train
+To train IRSAM on various dataset, modify the dataset path in the train-IRSAM.py file
+
+### Example
+```
+python train_IRSAM.py --output workdirs/your_workdir --checkpoint your_checkpoint
+```
 
 ## Evaluation
 To evaluate IRSAM on various dataset, modify the dataset path in the train-IRSAM.py file
